@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #aec2b9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #48595b;
+}
+
+img {
+  width: 20vw;
+  height: auto;
+}
+
+.recipe-card {
+  display: flex;
+    flex-direction: column;
+}
